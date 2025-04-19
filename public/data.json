@@ -1,0 +1,54 @@
+{
+  "surahs": [
+    { "number": 1, "name": "الفاتحة", "englishName": "Al-Fatihah", "englishNameTranslation": "The Opening" },
+    { "number": 2, "name": "البقرة", "englishName": "Al-Baqarah", "englishNameTranslation": "The Cow" },
+    { "number": 3, "name": "آل عمران", "englishName": "Aal-e-Imran", "englishNameTranslation": "The Family of Imran" }
+  ],
+  "verses": {
+    "1": [
+      {
+        "number": 1,
+        "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+        "translations": {
+          "english": "In the name of Allah, the Entirely Merciful, the Especially Merciful.",
+          "bangla": "শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।",
+          "hindi": "अल्लाह के नाम से जो बड़ा मेहरबान निहायत रहम वाला है।",
+          "urdu": "اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے۔"
+        }
+      },
+      {
+        "number": 2,
+        "text": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+        "translations": {
+          "english": "All praise is due to Allah, Lord of the worlds.",
+          "bangla": "সমস্ত প্রশংসা আল্লাহর জন্য, যিনি সকল সৃষ্টি জগতের পালনকর্তা।",
+          "hindi": "सारी तारीफ़ अल्लाह के लिए है जो तमाम जहानों का पालनेवाला है।",
+          "urdu": "تمام تعریف اللہ کے لیے ہے جو تمام جہانوں کا پالنے والا ہے۔"
+        }
+      }
+    ],
+    "2": [
+      {
+        "number": 1,
+        "text": "الم",
+        "translations": {
+          "english": "Alif, Lam, Meem.",
+          "bangla": "আলিফ, লাম, মীম।",
+          "hindi": "अलीफ़, लाम्, मीम।",
+          "urdu": "الف، لام، میم۔"
+        }
+      },
+      {
+        "number": 2,
+        "text": "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ",
+        "translations": {
+          "english": "This is the Book about which there is no doubt, a guidance for those conscious of Allah.",
+          "bangla": "এই হলো সেই কিতাব যার ব্যাপারে কোন সন্দেহ নেই, এটি আল্লাহকে ভয় করা ব্যক্তিদের জন্য হেদায়েত।",
+          "hindi": "यह वह किताब है जिसमे कोई शक नहीं, यह उन लोगों के लिए हिदायत है जो अल्लाह से डरते हैं।",
+          "urdu": "یہ وہ کتاب ہے جس میں کوئی شک نہیں، یہ ان لوگوں کے لیے ہدایت ہے جو اللہ سے ڈرتے ہیں۔"
+        }
+      }
+    ]
+  }
+}
+
