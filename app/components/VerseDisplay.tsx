@@ -83,4 +83,3 @@ const VerseDisplay: React.FC<VerseDisplayProps> = ({
 }
 
 export default VerseDisplay
-

@@ -21,4 +21,3 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = ({ selectedLanguage, o
 }
 
 export default LanguageSelector
-

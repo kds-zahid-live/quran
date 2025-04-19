@@ -15,4 +15,3 @@ const DarkModeToggle: React.FC<DarkModeToggleProps> = ({ isDarkMode, toggleDarkM
 }
 
 export default DarkModeToggle
-

@@ -1,4 +1,7 @@
+"use client"
+
 import type React from "react"
+import Link from "next/link"
 
 interface Surah {
   number: number
@@ -27,11 +30,16 @@ const SurahList: React.FC<SurahListProps> = ({ surahs, onSelectSurah, searchTerm
         <ul className="divide-y divide-gray-200 dark:divide-gray-600 max-h-96 overflow-y-auto">
           {filteredSurahs.map((surah) => (
             <li key={surah.number} className="hover:bg-gray-50 dark:hover:bg-gray-600">
-              <button onClick={() => onSelectSurah(surah.number)} className="w-full px-4 py-3 text-left">
-                <span className="font-medium">{surah.englishName}</span>
-                <span className="text-gray-500 dark:text-gray-300 ml-2">({surah.name})</span>
-                <p className="text-sm text-gray-500 dark:text-gray-400">{surah.englishNameTranslation}</p>
-              </button>
+              <div className="flex justify-between items-center px-4 py-3">
+                <button onClick={() => onSelectSurah(surah.number)} className="text-left flex-grow">
+                  <span className="font-medium">{surah.englishName}</span>
+                  <span className="text-gray-500 dark:text-gray-300 ml-2">({surah.name})</span>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">{surah.englishNameTranslation}</p>
+                </button>
+                <Link href={`/surah/${surah.number}`} className="text-blue-500 hover:text-blue-700 text-sm">
+                  Full View
+                </Link>
+              </div>
             </li>
           ))}
         </ul>
@@ -41,4 +49,3 @@ const SurahList: React.FC<SurahListProps> = ({ surahs, onSelectSurah, searchTerm
 }
 
 export default SurahList
-
